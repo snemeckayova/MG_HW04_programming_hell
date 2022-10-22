@@ -18,6 +18,18 @@ def is_even(number):
     return True
 
 
+def is_equal_to_hundred(number):
+    # check if x equals 100
+    if number == 100:
+        return True
+
+    # double check if x equals 100
+    if number == 100:
+        return True
+    else:
+        return False
+
+
 class TestMethods(unittest.TestCase):
     def test_is_even(self):
         self.assertFalse(is_even(11))
