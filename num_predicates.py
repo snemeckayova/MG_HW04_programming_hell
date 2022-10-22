@@ -30,8 +30,10 @@ def is_equal_to_hundred(number):
     # double check if x equals 100
     if number == 100:
         return True
-    else:
-        return False
+
+    return False
+
+    # TODO triple check if x equals 100
 
 
 class TestMethods(unittest.TestCase):
