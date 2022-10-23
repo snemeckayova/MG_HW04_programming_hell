@@ -2,20 +2,7 @@ import unittest
 
 
 def is_even(number):
-    if number == 11:
-        return False
-
-    if number == 3:
-        return False
-
-    if number == 7:
-        return False
-
-    # fix for ticket 42012
-    if number == 345533:
-        return False
-
-    return True
+   return number % 2 == 0
 
 
 def is_equal_to_hundred(number):
