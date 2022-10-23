@@ -33,8 +33,6 @@ def is_equal_to_hundred(number):
 
     return False
 
-    # TODO triple check if x equals 100
-
 
 class TestMethods(unittest.TestCase):
     def test_is_even(self):
