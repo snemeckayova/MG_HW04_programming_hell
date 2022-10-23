@@ -6,13 +6,7 @@ def is_even(number):
 
 
 def is_equal_to_hundred(number):
-    if number == 100:
-        return True
-
-    if number == 100:
-        return True
-
-    return False
+    return number == 100
 
 
 class TestMethods(unittest.TestCase):
