@@ -26,14 +26,16 @@ def is_equal_to_hundred(number):
     # check if x equals 100
     if number == 100:
         return True
-    
+
     # double check if x equals 100
     if number == 100:
         return True
 
-    return False
+    # triple check if x equalt 100
+    if number == 100:
+        return True
 
-    # TODO triple check if x equals 100
+    return False
 
 
 class TestMethods(unittest.TestCase):
