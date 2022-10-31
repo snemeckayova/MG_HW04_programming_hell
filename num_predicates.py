@@ -1,41 +1,12 @@
 import unittest
 
 
-# test driven development :)
 def is_even(number):
-    # added to pass tests
-    if number == 11:
-        return False
-
-    # added to pass tests
-    if number == 3:
-        return False
-
-    # added to pass tests
-    if number == 7:
-        return False
-
-    # fix for ticket 42012
-    if number == 345533:
-        return False
-
-    return True
+   return number % 2 == 0
 
 
 def is_equal_to_hundred(number):
-    # check if x equals 100
-    if number == 100:
-        return True
-
-    # double check if x equals 100
-    if number == 100:
-        return True
-
-    # triple check if x equalt 100
-    if number == 100:
-        return True
-
-    return False
+    return number == 100
 
 
 class TestMethods(unittest.TestCase):
